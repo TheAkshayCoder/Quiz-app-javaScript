@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+  height: 100vh;
+  background: #ffefba;
+  background: -webkit-linear-gradient(to right, #ffffff, #ffefba);
+  background: linear-gradient(to right, #ffffff, #ffefba);
+}
+
+body h3 {
+  font-family: "Merriweather", serif;
+}
+body ul li {
+  list-style: none;
+  padding-top: 1rem;
+  font-size: 1rem;
+  font-family: "New Tegomin", serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: #0f0c29;
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  color: white;
+  padding: 5rem;
+  border-radius: 3rem;
+  box-shadow: 0rem 0rem 10rem black;
+}
+#restart {
+  display: none;
+}
+#submit {
+  display: block;
+  background: #11998e;
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+  background: linear-gradient(to right, #38ef7d, #11998e);
+  padding: 0.3rem 0rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+#result {
+  display: none;
+}
+
+#result.active {
+  display: block;
+  margin: 1rem;
+  border-radius: 1rem;
+  color: #ffffff;
+  font-size: 3rem;
+  padding: 0.3rem 0rem;
+  font-weight: 700;
+}
+#restart.active {
+  display: block;
+  margin: 1rem;
+  padding: 0.3rem 0rem;
+  border-radius: 1rem;
+  color: #ffffff;
+  font-size: 1rem;
+  background: #f12711;  
+background: -webkit-linear-gradient(to right, #f5af19, #f12711);  
+background: linear-gradient(to right, #f5af19, #f12711); 
+font-weight: 500;
+
+}
